@@ -81,12 +81,23 @@ nav ul li a {
     padding: 20px;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 h1, h2, h3, h4, h5, h6, h7 {
     color: #020F1B;
 }
 
 p {
-    color: #68001C;
+    color: #020F1B;
 }
 
 ul {
